@@ -1,0 +1,260 @@
+{
+  "project_info": {
+    "project_number": "789766035590",
+    "firebase_url": "https://dojo-c2657.firebaseio.com",
+    "project_id": "dojo-c2657",
+    "storage_bucket": "dojo-c2657.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789766035590:android:70580f199a48b050971907",
+        "android_client_info": {
+          "package_name": "com.dojo.passport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiGPhQtG5kB5tbmbV9qjdbUNU5CGq6eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789766035590:android:85bd0217bff2f616971907",
+        "android_client_info": {
+          "package_name": "com.partner.dojo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789766035590-79r96hth2fnueporrl9bdvj23d35i89e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.partner.dojo",
+            "certificate_hash": "2ee5c5d6ebbbc7965783e86f457d24b89fae6efd"
+          }
+        },
+        {
+          "client_id": "789766035590-7g8ul4ago7n6fel4ntu7iv8vf226t49t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.partner.dojo",
+            "certificate_hash": "3837ac1cb225e0aedcfacc0f1653669d29c9c92c"
+          }
+        },
+        {
+          "client_id": "789766035590-hn23pr3ivfaii3jm2f7j3natu4et9lu7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.partner.dojo",
+            "certificate_hash": "737eb9a0c749a17d29c435a2a28593bd8745c607"
+          }
+        },
+        {
+          "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiGPhQtG5kB5tbmbV9qjdbUNU5CGq6eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789766035590:android:fb46fb22c161f954971907",
+        "android_client_info": {
+          "package_name": "in.dojosports.dojo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789766035590-0b4dvcbq8483ndrjgtuup858k1ckckgb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo",
+            "certificate_hash": "0f6058ec907cfd3ba7e5dc7f62925c0bb89e2581"
+          }
+        },
+        {
+          "client_id": "789766035590-48m2b84onj5svu07q0eikvofb57nbo1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo",
+            "certificate_hash": "2ee5c5d6ebbbc7965783e86f457d24b89fae6efd"
+          }
+        },
+        {
+          "client_id": "789766035590-fqpntr763mn2idvu08r6kgnl9km23dj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo",
+            "certificate_hash": "fceed63fac01d844c07b30dc5de3de86e6ea61d9"
+          }
+        },
+        {
+          "client_id": "789766035590-h4bg3ehao3p6v3g98uosmfb6sm472sfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo",
+            "certificate_hash": "ac358ee7ba4900616d7cc54bac94157d62293a8c"
+          }
+        },
+        {
+          "client_id": "789766035590-q32j3so6cla8hnmuouou79cdia6gqm6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo",
+            "certificate_hash": "3837ac1cb225e0aedcfacc0f1653669d29c9c92c"
+          }
+        },
+        {
+          "client_id": "789766035590-u5sr7qqmf04asqj6mprdugaamduur2s4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo",
+            "certificate_hash": "8d5b9ec56422e3f4c6463517e842bd7e526dfe4c"
+          }
+        },
+        {
+          "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiGPhQtG5kB5tbmbV9qjdbUNU5CGq6eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789766035590:android:b3b78a4514e884b1971907",
+        "android_client_info": {
+          "package_name": "in.dojosports.dojo.dojo_partner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789766035590-7mvrrfisb7ps3bo9u6dn9i8f0rk02h4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo.dojo_partner",
+            "certificate_hash": "d1613d0dacee69cdca1dee2142bbaacbc886744f"
+          }
+        },
+        {
+          "client_id": "789766035590-9t57doq6e2s722haoljeq77tj0bngoud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo.dojo_partner",
+            "certificate_hash": "737eb9a0c749a17d29c435a2a28593bd8745c607"
+          }
+        },
+        {
+          "client_id": "789766035590-evtjmo1e2umm7pli6gp0tlu42gv4tle2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo.dojo_partner",
+            "certificate_hash": "a4ae74a856963b2c7a8a626931912e23f10d8201"
+          }
+        },
+        {
+          "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiGPhQtG5kB5tbmbV9qjdbUNU5CGq6eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789766035590:android:296acd6dd3d7c024971907",
+        "android_client_info": {
+          "package_name": "in.dojosports.dojo.os"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789766035590-si95rv5lfms1cest5o8pq5lmojp0dpnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.dojosports.dojo.os",
+            "certificate_hash": "c917bf9e64ebaee10fed061a7fa42c9f6284a6f0"
+          }
+        },
+        {
+          "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqiGPhQtG5kB5tbmbV9qjdbUNU5CGq6eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789766035590-ogpudb4hknr58c6v3ke7tacmngaf9rk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

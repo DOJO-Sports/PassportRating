@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcfcfc"
+    tools:context=".SubscriptionActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:background="#fff5c1"/>
+
+    <ImageView
+        android:layout_width="246.5dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/athlete" />
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="30dp"
+        android:clickable="true"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:text="NEW"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/curved_red_bg"
+        android:layout_above="@+id/monthlySub"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/monthlySub"
+        android:layout_above="@id/whiteBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Monthly Subscription"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="35dp"/>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/whiteBox"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:elevation="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="135dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/information_button"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="₹499"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/credits"
+                android:layout_below="@id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#878787"
+                android:text="Includes 100 credits"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"/>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_below="@id/credits"
+                android:background="#878787"
+                android:layout_marginTop="23dp"/>
+
+            <Button
+                android:id="@+id/subscribe"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:text="SUBSCRIBE"
+                android:textSize="23sp"
+                android:textColor="@color/white"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/subscribe_btn_bg"
+                android:layout_marginBottom="25dp"/>
+
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#878787"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:text="Credits are used to book classes through app" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="74dp"
+        android:background="#878787" />
+
+</RelativeLayout>

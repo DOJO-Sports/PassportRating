@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Passport</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="please_enter_valid_otp_below">Please enter valid OTP below</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="submit">SUBMIT</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="join">JOIN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bookings">Bookings</string>
+    <string name="tab_text_1">Upcoming</string>
+    <string name="tab_text_2">History</string>
+    <string name="tab_text_3">Cancelled</string>
+</resources>

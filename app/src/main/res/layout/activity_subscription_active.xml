@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fcfcfc"
+    tools:context=".SubscriptionActiveActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:background="#fff5c1"/>
+
+    <ImageView
+        android:layout_width="246.5dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/athlete" />
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/monthlySub"
+        android:layout_above="@id/whiteBox"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Monthly Subscription"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="35dp"/>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/whiteBox"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="1dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="35dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/information_button"/>
+
+            <TextView
+                android:id="@+id/total_credits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="100"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="CREDITS"
+                android:layout_below="@id/total_credits"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/expiry_date"
+                android:layout_below="@id/credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#878787"
+                android:text="Expires on 25 oct 2021"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"/>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_below="@id/expiry_date"
+                android:background="#878787"
+                android:layout_marginTop="23dp"/>
+
+            <TextView
+                android:id="@+id/topup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view"
+                android:text="Top-up"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none"
+                android:layout_below="@id/topup">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tp_card1"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#F6F6F6"
+                        android:elevation="0dp"
+                        app:cardElevation="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/price_p1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="₹11"
+                                android:layout_marginTop="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="22sp"/>
+
+                            <TextView
+                                android:id="@+id/credit_c1"
+                                android:layout_below="@id/price_p1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5 credits"
+                                android:layout_marginTop="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="#878787"
+                                android:textSize="19sp"/>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tp_card2"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#F6F6F6"
+                        android:elevation="0dp"
+                        app:cardElevation="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/price_p2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="₹21"
+                                android:layout_marginTop="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="22sp"/>
+
+                            <TextView
+                                android:id="@+id/credit_c2"
+                                android:layout_below="@id/price_p2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="15 credits"
+                                android:layout_marginTop="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="#878787"
+                                android:textSize="19sp"/>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tp_card3"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#F6F6F6"
+                        android:elevation="0dp"
+                        app:cardElevation="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/price_p3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="₹51"
+                                android:layout_marginTop="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="22sp"/>
+
+                            <TextView
+                                android:id="@+id/credit_c3"
+                                android:layout_below="@id/price_p3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="60 credits"
+                                android:layout_marginTop="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="#878787"
+                                android:textSize="19sp"/>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tp_card4"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#F6F6F6"
+                        android:elevation="0dp"
+                        app:cardElevation="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/price_p4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="₹11"
+                                android:layout_marginTop="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="22sp"/>
+
+                            <TextView
+                                android:id="@+id/credit_c4"
+                                android:layout_below="@id/price_p4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5 credits"
+                                android:layout_marginTop="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="#878787"
+                                android:textSize="19sp"/>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tp_card5"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="#F6F6F6"
+                        android:elevation="0dp"
+                        app:cardElevation="0dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/price_p5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="₹11"
+                                android:layout_marginTop="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:textSize="22sp"/>
+
+                            <TextView
+                                android:id="@+id/credit_c5"
+                                android:layout_below="@id/price_p5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5 credits"
+                                android:layout_marginTop="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:textColor="#878787"
+                                android:textSize="19sp"/>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

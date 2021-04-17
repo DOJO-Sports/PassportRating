@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ViewDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/close"
+            android:clickable="true"
+            android:layout_width="37dp"
+            android:layout_margin="25dp"
+            android:layout_height="37dp"
+            android:src="@drawable/close"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            android:layout_marginTop="135dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/activityName"
+            android:layout_below="@id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/assetName"
+            android:layout_below="@id/activityName"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_below="@id/assetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon, Apr 17 2021 • 08.00PM - 09.00PM"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <RelativeLayout
+            android:id="@+id/confirmBtn"
+            android:layout_below="@id/time"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:clickable="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/green_btn_bg"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONFIRM RESERVATION"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_below="@id/confirmBtn"
+            android:layout_width="350dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Please note, this activity occurs within 12 hours and cancellation will incur a late fee"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+    </RelativeLayout>
+</RelativeLayout>
